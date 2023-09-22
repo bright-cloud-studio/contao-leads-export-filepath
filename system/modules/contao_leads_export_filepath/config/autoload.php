@@ -13,5 +13,5 @@
 /* Register the classes */
 ClassLoader::addClasses(array
 (
-    'src\Export\CustomAbstractExporter'               => 'system/modules/contao_leads_export_filepath/library/src/Export/CustomAbstractExporter.php'
+    'Bcs\Export\CustomAbstractExporter'               => 'system/modules/contao_leads_export_filepath/library/Bcs/Export/CustomAbstractExporter.php'
 ));
