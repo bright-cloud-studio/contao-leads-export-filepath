@@ -18,10 +18,8 @@
   $GLOBALS['TL_DCA']['tl_lead_export']['fields']['full_path'] = array
   (
     'label'                     => &$GLOBALS['TL_LANG']['tl_lead_export']['full_path'],
-    'inputType'                 => 'checkbox',
-    'options' => [
-        'yes'
-    ],
-    'eval'                      => array('mandatory'=>false, 'multiple'=>false, 'tl_class'=>'w50'),
-    'sql'                       => "varchar(32) NOT NULL default ''"
+    'inputType'                 => 'radio',
+    'options'                   => array('yes' => 'Yes', 'no' => 'No'),
+    'eval'                      => array('mandatory'=>true, 'tl_class'=>'w50'),
+    'sql'                       => "varchar(32) NOT NULL default 'no'"
   );
