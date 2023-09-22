@@ -2,7 +2,9 @@
 
 namespace Bcs\Export;
 
-class CustomAbstractExporter extends \Terminal42\LeadsBundle\Export\AbstractExporter
+use \Terminal42\LeadsBundle\Export\AbstractExporter
+
+class CustomAbstractExporter extends AbstractExporter
 {
 
   protected function getOutput(string $value, string $label, string $format): string
