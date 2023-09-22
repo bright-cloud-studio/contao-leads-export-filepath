@@ -22,7 +22,7 @@
     "extra": {
         "contao": {
             "sources": {
-                "system/modules/isotope_color_selector": "system/modules/contao_leads_export_filepath"
+                "system/modules/contao_leads_export_filepath": "system/modules/contao_leads_export_filepath"
             }
         }
     },
