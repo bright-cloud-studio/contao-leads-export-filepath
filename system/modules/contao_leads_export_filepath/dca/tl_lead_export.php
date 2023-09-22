@@ -11,7 +11,7 @@
   **/
   
   /* Extend the tl_user palettes */
-  $GLOBALS['TL_DCA']['tl_lead_export']['palettes']['csv'] = str_replace(';{conditions_legend}', ',full_path;{conditions_legend}', $GLOBALS['TL_DCA']['tl_lead_export']['palettes']['csv']);
+  $GLOBALS['TL_DCA']['tl_lead_export']['palettes']['csv'] = str_replace(';{csv_legend:hide}', ',full_path;{csv_legend:hide}', $GLOBALS['TL_DCA']['tl_lead_export']['palettes']['csv']);
   
   
   /* Add fields to tl_user */
