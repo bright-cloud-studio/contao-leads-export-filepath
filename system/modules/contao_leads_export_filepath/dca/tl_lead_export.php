@@ -19,7 +19,9 @@
   (
     'label'                     => &$GLOBALS['TL_LANG']['tl_lead_export']['full_path'],
     'inputType'                 => 'checkbox',
-    'options'                   => array('yes' => 'Yes', 'no' => 'No'),
+    'options' => [
+        'yes'
+    ],
     'eval'                      => array('mandatory'=>false, 'multiple'=>false, 'tl_class'=>'w50'),
     'sql'                       => "varchar(32) NOT NULL default ''"
   );
